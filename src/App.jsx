@@ -36,6 +36,7 @@ function App() {
   return (
     <>
       <select
+        className="club-select"
         value={selectedClub}
         onChange={(e) => {
           const selectedOption = clubOptions.find(
